@@ -1,0 +1,16 @@
+arithmos1=input("Δωσε τον πρωτο αριθμο: ")
+arithmos2=input("Δωσε τον δευτερο αριθμο: ")
+ask=raw_input("Διαλεξε μια πραξη a(+) b(-) c(*) d(/): ")
+a=arithmos1+arithmos2
+b=arithmos1-arithmos2
+c=arithmos1*arithmos2
+d=arithmos1/arithmos2
+if ask=="a":
+    print a
+if ask=="b":
+    print b
+if ask=="c":
+    print c
+if ask=="d":
+    print d
+    

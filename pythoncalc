@@ -7,10 +7,12 @@ c=arithmos1*arithmos2
 d=arithmos1/arithmos2
 if ask=="a":
     print a
-if ask=="b":
+elif ask=="b":
     print b
-if ask=="c":
+elif ask=="c":
     print c
-if ask=="d":
+elif ask=="d":
     print d
+else:
+    print "Λαθος πραξη"
     
